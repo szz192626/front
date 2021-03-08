@@ -1,0 +1,30 @@
+
+.arrow-outer {
+    position: absolute;
+    height: 24px;
+    width: 60px;
+    overflow: hidden;
+    }
+.arrow-shadow {
+    box-shadow: 0 0 10px 0 #aaaaaa;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background: none repeat scroll 0 0 #ffffff;
+    height: 40px;
+    left: 15px;
+    position: absolute;
+    top: 16px;
+    width: 40px;
+    }
+.arrow-inner {
+    position: relative;
+    left: 10px;
+    top: 20px;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    border: 5px solid #ededed;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    }
+
