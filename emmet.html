@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>emmet</title>
+</head>
+<body>
+    <!-- ⽣成带id的标签 -->
+    <!-- #box(div#box) -->
+    <div id="box"></div>
+     <!-- ⽣成带class的标签 -->
+    <!-- div.container -->
+    <div class="container"></div>
+    <!-- 混合 -->
+    <!-- div#header+div.main+div#footer.classname1.classname2 -->
+    <div id="header"></div>
+    <div class="main"></div>
+    <div id="footer" class="classname1 classname2"></div>
+    <!-- ⽣成⼦代结点：> -->
+    <!-- div.header>ul.nav>li.nav-item -->
+    <div class="header">
+        <ul class="nav">
+            <li class="nav-item"></li>
+        </ul>
+    </div>
+    <!--生成兄弟结点：-->
+    <!-- div+p+bq -->
+    <div></div>
+    <p></p>
+    <blockquote></blockquote>
+    <!-- 生成父带结点^ -->
+    <!-- div>p>h1^h2 -->
+    <div>
+        <p>
+            <h1></h1>
+        </p>
+        <h2></h2>
+    </div>
+    <!-- 重复元素 -->
+    <!-- ul>li.item*3 -->
+    <ul>
+        <li class="item"></li>
+        <li class="item"></li>
+        <li class="item"></li>
+    </ul>
+    <!-- 生成分组 -->
+    <!-- div>(header>ul>(li>a)*2)+footer>p -->
+    <div>
+        <header>
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </header>
+        <footer>
+            <p></p>
+        </footer>
+    </div>
+    <!-- 设置属性：[] -->
+    <!-- a[href="http://www.baidu.com"title="百度一下，你就知道"] -->
+    <a href="http://www.baidu.com" title="百度一下，你就知道"></a>
+    <!-- 对生成内容编号：$ -->
+    <!-- 可以使用美元$对项目编号，示例 -->
+    <!-- ul>li#item$*5 -->
+    <ul>
+        <li id="item1"></li>
+        <li id="item2"></li>
+        <li id="item3"></li>
+        <li id="item4"></li>
+        <li id="item5"></li>
+    </ul>
+    <!-- 从大到小可以在$后加@- -->
+    <!-- ul>li#item$@-*5 -->
+    <ul>
+        <li id="item5"></li>
+        <li id="item4"></li>
+        <li id="item3"></li>
+        <li id="item2"></li>
+        <li id="item1"></li>
+    </ul>
+    <!-- 还可以从指定序号3开始，生成5个 -->
+    <!-- ul>li.item$@3*5 -->
+    <ul>
+        <li class="item3"></li>
+        <li class="item4"></li>
+        <li class="item5"></li>
+        <li class="item6"></li>
+        <li class="item7"></li>
+    </ul>
+    <!-- 生成文本内容{} -->
+    <!-- ul#id>li.classname{文本内容}*5 -->
+    <ul id="id">
+        <li class="classname">开心每一天</li>
+        <li class="classname">开心每一天</li>
+        <li class="classname">开心每一天</li>
+        <li class="classname">开心每一天</li>
+        <li class="classname">开心每一天</li>
+    </ul>
+    <!-- 生成随机文本 -->
+    <!-- p.content>lorem -->
+    <p class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+         Hic iusto minus reprehenderit ipsa dolores corporis eaque 
+         quia voluptates perspiciatis quis autem, eius quam? Quam aut, 
+         dolore non minima a debitis.</p>
+</body>
+</html>
