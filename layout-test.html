@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>布局练习</title>
+</head>
+<style>
+    /* .g-container{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+    }
+    .g-box{
+        width: 40vmin;
+        height: 40vmin;
+        background: rgb(105, 8, 216);
+        margin: auto;
+    } */
+
+    /* .g-container {
+        position: relative;
+        height: 100vh;
+        min-width: 400px;
+    }
+
+    .g-container>div {
+        height: 100vh;
+        float: left;
+        text-align: center;
+        color: #fff;
+        line-height: 100vh;
+        font-size: 3vw;
+    }
+
+    .g-middle {
+        position: relative;
+        width: 100%;
+        background: #cc6630;
+    }
+
+    .g-middle .g-middle-inner {
+        margin: 0 200px;
+    }
+
+    .g-left {
+        position: relative;
+        width: 200px;
+        background: #ffcc00;
+        margin-left: -100%;
+    }
+
+    .g-right {
+        position: relative;
+        width: 200px;
+        background: pink;
+        margin-left: -200px;
+    } */
+
+    .g-container {
+        position: relative;
+        height: 100vh;
+        min-width: 400px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .g-container>div {
+        height: 100vh;
+        text-align: center;
+        color: #fff;
+        line-height: 100vh;
+        font-size: 3vw;
+    }
+
+    .g-middle {
+        order: 2;
+        flex: auto 1 0;
+        background: #cc6630;
+    }
+
+    .g-left {
+        order: 1;
+        flex: 200px 0 0;
+        background: #ffcc00;
+    }
+
+    .g-right {
+        order: 3;
+        flex: 200px 0 0;
+        background: pink;
+    }
+</style>
+
+<body>
+    <!-- flex水平垂直居中 -->
+    <!-- <div class="g-container">
+        <div class="g-box"></div>
+    </div> -->
+
+    <!--flex双飞翼布局  -->
+    <!-- <div class="g-container">
+        <div class="g-middle">
+            <div class="g-middle-inner">g-middle-inner</div>
+        </div>
+        <div class="g-left">left</div>
+        <div class="g-right">right</div>
+    </div> -->
+
+    <!--flex圣杯布局  -->
+    <div class="g-container">
+        <div class="g-middle">middle</div>
+        <div class="g-left">left</div>
+        <div class="g-right">right</div>
+    </div>
+
+</body>
+
+</html>
