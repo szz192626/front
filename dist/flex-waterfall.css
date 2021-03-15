@@ -18,8 +18,8 @@
 }
 
 .g-queue:nth-child(1) .g-item:nth-child(1) {
-  height: 182px;
-  background: #10ab89;
+  height: 151px;
+  background: #85b971;
 }
 .g-queue:nth-child(1) .g-item:nth-child(1)::after {
   content: "1";
@@ -31,8 +31,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(1) .g-item:nth-child(2) {
-  height: 322px;
-  background: #5f609a;
+  height: 77px;
+  background: #12a2ec;
 }
 .g-queue:nth-child(1) .g-item:nth-child(2)::after {
   content: "2";
@@ -44,8 +44,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(1) .g-item:nth-child(3) {
-  height: 183px;
-  background: #2b6f81;
+  height: 209px;
+  background: #9fddb6;
 }
 .g-queue:nth-child(1) .g-item:nth-child(3)::after {
   content: "3";
@@ -58,7 +58,7 @@
 }
 .g-queue:nth-child(1) .g-item:nth-child(4) {
   height: 345px;
-  background: #2e7829;
+  background: #6efae9;
 }
 .g-queue:nth-child(1) .g-item:nth-child(4)::after {
   content: "4";
@@ -70,8 +70,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(1) .g-item:nth-child(5) {
-  height: 221px;
-  background: #b0c535;
+  height: 345px;
+  background: #6d295f;
 }
 .g-queue:nth-child(1) .g-item:nth-child(5)::after {
   content: "5";
@@ -83,8 +83,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(1) .g-item:nth-child(6) {
-  height: 89px;
-  background: #82e1c5;
+  height: 259px;
+  background: #f423bf;
 }
 .g-queue:nth-child(1) .g-item:nth-child(6)::after {
   content: "6";
@@ -96,8 +96,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(1) .g-item:nth-child(7) {
-  height: 180px;
-  background: #4a52cb;
+  height: 188px;
+  background: #fcf5ab;
 }
 .g-queue:nth-child(1) .g-item:nth-child(7)::after {
   content: "7";
@@ -109,8 +109,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(1) .g-item:nth-child(8) {
-  height: 116px;
-  background: #2b9987;
+  height: 274px;
+  background: #8af948;
 }
 .g-queue:nth-child(1) .g-item:nth-child(8)::after {
   content: "8";
@@ -123,8 +123,8 @@
 }
 
 .g-queue:nth-child(2) .g-item:nth-child(1) {
-  height: 128px;
-  background: #0148ca;
+  height: 249px;
+  background: #86dff4;
 }
 .g-queue:nth-child(2) .g-item:nth-child(1)::after {
   content: "1";
@@ -136,8 +136,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(2) .g-item:nth-child(2) {
-  height: 75px;
-  background: #2b2c25;
+  height: 94px;
+  background: #ab3910;
 }
 .g-queue:nth-child(2) .g-item:nth-child(2)::after {
   content: "2";
@@ -149,8 +149,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(2) .g-item:nth-child(3) {
-  height: 320px;
-  background: #75342e;
+  height: 175px;
+  background: #c6c3f5;
 }
 .g-queue:nth-child(2) .g-item:nth-child(3)::after {
   content: "3";
@@ -162,8 +162,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(2) .g-item:nth-child(4) {
-  height: 198px;
-  background: #e131a1;
+  height: 172px;
+  background: #a95839;
 }
 .g-queue:nth-child(2) .g-item:nth-child(4)::after {
   content: "4";
@@ -175,8 +175,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(2) .g-item:nth-child(5) {
-  height: 274px;
-  background: #654492;
+  height: 110px;
+  background: #7452d9;
 }
 .g-queue:nth-child(2) .g-item:nth-child(5)::after {
   content: "5";
@@ -188,8 +188,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(2) .g-item:nth-child(6) {
-  height: 218px;
-  background: #501854;
+  height: 123px;
+  background: #145f9c;
 }
 .g-queue:nth-child(2) .g-item:nth-child(6)::after {
   content: "6";
@@ -201,8 +201,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(2) .g-item:nth-child(7) {
-  height: 275px;
-  background: #6674ed;
+  height: 164px;
+  background: #615374;
 }
 .g-queue:nth-child(2) .g-item:nth-child(7)::after {
   content: "7";
@@ -214,8 +214,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(2) .g-item:nth-child(8) {
-  height: 224px;
-  background: #38ffb9;
+  height: 201px;
+  background: #8e57dd;
 }
 .g-queue:nth-child(2) .g-item:nth-child(8)::after {
   content: "8";
@@ -228,8 +228,8 @@
 }
 
 .g-queue:nth-child(3) .g-item:nth-child(1) {
-  height: 167px;
-  background: #49bc6b;
+  height: 262px;
+  background: #575921;
 }
 .g-queue:nth-child(3) .g-item:nth-child(1)::after {
   content: "1";
@@ -241,8 +241,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(3) .g-item:nth-child(2) {
-  height: 56px;
-  background: #3be8be;
+  height: 345px;
+  background: #f3f8ce;
 }
 .g-queue:nth-child(3) .g-item:nth-child(2)::after {
   content: "2";
@@ -254,8 +254,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(3) .g-item:nth-child(3) {
-  height: 348px;
-  background: #e505cc;
+  height: 53px;
+  background: #125631;
 }
 .g-queue:nth-child(3) .g-item:nth-child(3)::after {
   content: "3";
@@ -267,8 +267,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(3) .g-item:nth-child(4) {
-  height: 225px;
-  background: #79e404;
+  height: 231px;
+  background: #d09235;
 }
 .g-queue:nth-child(3) .g-item:nth-child(4)::after {
   content: "4";
@@ -280,8 +280,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(3) .g-item:nth-child(5) {
-  height: 71px;
-  background: #b29f4a;
+  height: 199px;
+  background: #c88655;
 }
 .g-queue:nth-child(3) .g-item:nth-child(5)::after {
   content: "5";
@@ -293,8 +293,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(3) .g-item:nth-child(6) {
-  height: 297px;
-  background: #bcf3bd;
+  height: 344px;
+  background: #f3883c;
 }
 .g-queue:nth-child(3) .g-item:nth-child(6)::after {
   content: "6";
@@ -306,8 +306,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(3) .g-item:nth-child(7) {
-  height: 133px;
-  background: #42c8f5;
+  height: 267px;
+  background: #03f4fa;
 }
 .g-queue:nth-child(3) .g-item:nth-child(7)::after {
   content: "7";
@@ -319,8 +319,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(3) .g-item:nth-child(8) {
-  height: 340px;
-  background: #10319f;
+  height: 332px;
+  background: #a9558f;
 }
 .g-queue:nth-child(3) .g-item:nth-child(8)::after {
   content: "8";
@@ -333,8 +333,8 @@
 }
 
 .g-queue:nth-child(4) .g-item:nth-child(1) {
-  height: 186px;
-  background: #b8f187;
+  height: 311px;
+  background: #776652;
 }
 .g-queue:nth-child(4) .g-item:nth-child(1)::after {
   content: "1";
@@ -346,8 +346,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(4) .g-item:nth-child(2) {
-  height: 266px;
-  background: #7efb36;
+  height: 231px;
+  background: #8922b7;
 }
 .g-queue:nth-child(4) .g-item:nth-child(2)::after {
   content: "2";
@@ -359,8 +359,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(4) .g-item:nth-child(3) {
-  height: 126px;
-  background: #c3ba44;
+  height: 180px;
+  background: #724baa;
 }
 .g-queue:nth-child(4) .g-item:nth-child(3)::after {
   content: "3";
@@ -372,8 +372,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(4) .g-item:nth-child(4) {
-  height: 114px;
-  background: #21fc36;
+  height: 86px;
+  background: #c06ca9;
 }
 .g-queue:nth-child(4) .g-item:nth-child(4)::after {
   content: "4";
@@ -385,8 +385,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(4) .g-item:nth-child(5) {
-  height: 202px;
-  background: #2e8da9;
+  height: 274px;
+  background: #eec859;
 }
 .g-queue:nth-child(4) .g-item:nth-child(5)::after {
   content: "5";
@@ -398,8 +398,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(4) .g-item:nth-child(6) {
-  height: 158px;
-  background: #793fdd;
+  height: 196px;
+  background: #69272f;
 }
 .g-queue:nth-child(4) .g-item:nth-child(6)::after {
   content: "6";
@@ -411,8 +411,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(4) .g-item:nth-child(7) {
-  height: 78px;
-  background: #74d52a;
+  height: 349px;
+  background: #8e9081;
 }
 .g-queue:nth-child(4) .g-item:nth-child(7)::after {
   content: "7";
@@ -424,8 +424,8 @@
   transform: translate(-50%, -50%);
 }
 .g-queue:nth-child(4) .g-item:nth-child(8) {
-  height: 241px;
-  background: #a841aa;
+  height: 111px;
+  background: #eeb05a;
 }
 .g-queue:nth-child(4) .g-item:nth-child(8)::after {
   content: "8";

@@ -23,7 +23,7 @@ randomNum(255));
     width: 100%;
     margin: 2.5% 0;
 }
-@for $i from 1 to $lineCount+1 {
+    @for $i from 1 to $lineCount+1 {
     .g-queue:nth-child(#{$i}) {
     @for $j from 1 to $count+1 {
     .g-item:nth-child(#{$j}) {
