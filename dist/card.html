@@ -9,7 +9,7 @@
   </head>
   <body> 
     <div id="app"> 
-      <div class="card" v-for="student in students" :key="student.id">
+      <div class="card" v-for="student in students" :style="{backgroundColor:student.color}"   :key="student.id">
         <div class="header"> <img class="avatar" :src="student.avatar">
           <h3>{{student.name}}</h3>
         </div>
