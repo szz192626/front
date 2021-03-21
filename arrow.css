@@ -4,7 +4,8 @@
     height: 24px;
     width: 60px;
     overflow: hidden;
-    }
+}
+
 .arrow-shadow {
     box-shadow: 0 0 10px 0 #aaaaaa;
     -webkit-transform: rotate(45deg);
@@ -15,7 +16,8 @@
     position: absolute;
     top: 16px;
     width: 40px;
-    }
+}
+
 .arrow-inner {
     position: relative;
     left: 10px;
@@ -26,5 +28,5 @@
     border: 5px solid #ededed;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    }
+}
 

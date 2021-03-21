@@ -22,7 +22,7 @@
             /* 方法四：overflow:hidden */
             /* overflow: hidden; */
             /* 方法五 */
-            overflow:auto
+            overflow: auto
         }
 
         .outer .inner {
@@ -32,16 +32,17 @@
             float: left;
             margin: 10px;
         }
+
         /* 法二 */
         /* .clear {
             clear: both;
         } */
         /* 法三 */
-        .clearfix{
+        .clearfix {
             zoom: 1;
         }
 
-        .clearfix:after{
+        .clearfix:after {
             display: block;
             clear: both;
             content: "";
@@ -53,16 +54,16 @@
 </head>
 
 <body>
-     <div class="outer clearfix">
-      <div class="outer"></div>  
-        <div class="inner"></div>
-        <div class="inner"></div>
-        <div class="inner"></div>
-        <div class="inner"></div>
-        <div class="inner"></div>
-        <!--法二： <div class="clear"></div> -->
+<div class="outer clearfix">
+    <div class="outer"></div>
+    <div class="inner"></div>
+    <div class="inner"></div>
+    <div class="inner"></div>
+    <div class="inner"></div>
+    <div class="inner"></div>
+    <!--法二： <div class="clear"></div> -->
 
-    </div>
+</div>
 </body>
 
 </html>

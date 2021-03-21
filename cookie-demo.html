@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS设置cookie和获取cookie</title>
+</head>
+
+<body>
+    <div id="app">
+        <h2>JS设置cookie和获取cookie</h2>
+        <h3>name:{{name}}</h3>
+        <h3>age:{{age}}</h3>
+        <h3>height:{{height}}</h3>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js-basic-fx/js-cookie.js"></script>
+    <script src="js-basic-fx/get-page-height.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                name: '',
+                age: 0,
+                height: 'height',
+            },
+            created() {
+                setCookie('name', 'hello word', 20 * 1000)
+                setCookie('age',20)
+                setCookie('height',618)
+                this.name = getCookie('name')
+                this.age = getCookie('age')
+                this.height = getCookie('height')
+                console.log(getCookie(' name '))
+                console.log(getCookie('age'))
+                // console.log(getCookie('height'))
+                console.log(getPageHeight('height')); 
+            },
+        })
+    </script>
+</body>
+
+</html>
